@@ -11,6 +11,7 @@
     ``format <FORMAT> (e.g. json)``
     
     ``@type newrelic``
+   
     ``api_key <NEWRELIC_API_KEY>``
     
     Build fluentd image:
