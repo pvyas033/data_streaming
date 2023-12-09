@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fluent-plugin-newrelic (1.0.0)
+    fluentd (1.12.3)
+      msgpack
+      tzinfo
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fluent-plugin-newrelic
+  fluentd (~> 1.12)
+
+BUNDLED WITH
+   2.2.31
