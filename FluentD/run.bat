@@ -1,1 +1,0 @@
-docker run -d --name pvfluentd -p 24224:24224 fluentdpv
