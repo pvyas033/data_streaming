@@ -4,9 +4,9 @@
 
     You have to change below values in fluentd.conf
     
-    ``brokers <KAFKA_BROKER_IP> (e.g. 10.190.1.1)``
+    ``brokers <KAFKA_BROKER_IP> (e.g. 10.190.1.1, kafka)``
    
-    ``topics <TOPIC_NAME> (e.g. testtopic)``
+    ``topics <TOPIC_NAME> (e.g. vyastopic)``
    
     ``format <FORMAT> (e.g. json)``
     
@@ -18,8 +18,6 @@
     
     ``docker build . -t fluentdpv``
     
-    Then Run below command to run Fluentd server
-    
-    ``docker run -d --name pvfluentd -p 24224:24224 fluentdpv``
-    
-    Now kafka messages will transfer from kafka via fluentd to Newrelic.
+2. Now run below command to up all three containers(zookeeper, kafka, fluentd)
+
+   ``docker-compose up``
