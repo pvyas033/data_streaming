@@ -5,7 +5,9 @@
     You have to change below values in fluentd.conf
     
     ``brokers <KAFKA_BROKER_IP> (e.g. 10.190.1.1)``
+   
     ``topics <TOPIC_NAME> (e.g. testtopic)``
+   
     ``format <FORMAT> (e.g. json)``
     
     ``@type newrelic``
